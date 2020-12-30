@@ -5,6 +5,8 @@ metadata:
   name: nioctib
   namespace: flux-system
 spec:
+  decryption:
+    provider: sops
   interval: 1m0s
   path: ./nioctib
   prune: true
